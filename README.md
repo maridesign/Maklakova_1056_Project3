@@ -1,10 +1,14 @@
 # Maklakova_1056_Project3
-Lady Speed Stick
+Lowenbraw and Lady Speed Stick Band Mashup.
+Style - Lowenbraw, brand name -lady Speed Stick.
+This mashup mackes truly unique product - anti sweat beer. This beer made from dew. Drink some beer, and you wont sweat!
 
-#Installation
+
+
+# Installation
 No installation required
 
-#MIT License
+# MIT License
 MIT License Copyright (c) 2020 Maria Maklakova
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

@@ -1,7 +1,7 @@
 # Maklakova_1056_Project3
 Lowenbraw and Lady Speed Stick Band Mashup.
-Style - Lowenbraw, brand name -lady Speed Stick.
-This mashup mackes truly unique product - anti sweat beer. This beer made from dew. Drink some beer, and you wont sweat!
+Style - Lowenbrau, brand name -Lady Speed Stick.
+This mashup makes truly unique product - antisweat beer. This beer made from dew. Drink some beer, and you won't sweat!
 
 
 

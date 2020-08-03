@@ -9,7 +9,7 @@ let lenght = items.length;
 const arc = 2 * Math.PI * (1 / lenght);
 const radius = 40;
 
-button.addEventListener('click', (e) => {
+button.addEventListener('onmousemove', (e) => {
     e.preventDefault();
 
     active = !active;

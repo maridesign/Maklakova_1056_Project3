@@ -27,7 +27,7 @@ body {
 
 h1 {
     text-transform: uppercase;
-    font-size: 8em;
+    font-size: 10em;
     text-shadow:  7px 4px 3px rgba(0,0,0,0.3);
 
     -webkit-text-stroke-color: #fff;
@@ -158,14 +158,16 @@ nav a {
 /* ---- nav end ----- */
 
 .logo {
-    max-width: 460px;
+    width: 500px;
     margin-bottom: 2.5em;
 }
 
 .stringWrap {
-    width: 100%;
+    width: 85%;
     margin-top: -1em;
     margin-bottom: 10em;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
@@ -421,4 +423,109 @@ input[type="submit"]:hover {
     background-color: #F7C74F;
     padding-top: 3em;
     box-shadow: 0 -5px 15px rgba(0,0,0,0.5);
+}
+
+/* ====== svg ====== */
+
+.bubbles-large > g {
+    opacity: 0;
+    will-change: transform, opacity;
+}
+  
+
+@keyframes up {
+    0% {
+    opacity: 0;
+    }
+    10%, 90% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    transform: translateY(-15px);
+    }
+}
+
+@keyframes wobble {
+    33% {
+    transform: translateX(-2.5px);
+    }
+    66% {
+    transform: translateX(2.5px);
+    }
+}
+  
+/* первая группа */
+.bubbles-large g:nth-of-type(1) {
+    animation: up 6.5s infinite;
+}
+.bubbles-large g:nth-of-type(1) circle {
+    animation: wobble 3s infinite ease-in-out;
+}
+
+.bubbles-small g:nth-of-type(1) circle {
+    animation: wobble 3s 275ms infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(1) {
+  animation: up 6s 900ms infinite;
+}
+
+/* вторая группа */
+.bubbles-large g:nth-of-type(2) {
+    animation: up 5s infinite;
+}
+.bubbles-large g:nth-of-type(2) circle {
+    animation: wobble 5s infinite ease-in-out;
+}
+
+.bubbles-small g:nth-of-type(2) circle {
+    animation: wobble 5s infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(2) {
+  animation: up 9s infinite;
+}
+
+/* третья группа */
+.bubbles-large g:nth-of-type(3) {
+    animation: up 7s infinite;
+}
+.bubbles-large g:nth-of-type(3) circle {
+    animation: wobble 4s infinite ease-in-out;
+}
+
+.bubbles-small g:nth-of-type(3) circle {
+    animation: wobble 6s infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(3) {
+  animation: up 5s infinite;
+}
+  
+/* четвертая группа */
+.bubbles-large g:nth-of-type(4) {
+    animation: up 5s infinite;
+}
+.bubbles-large g:nth-of-type(4) circle {
+    animation: wobble 3.5s infinite ease-in-out;
+}
+
+.bubbles-small g:nth-of-type(4) circle {
+    animation: wobble 8s infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(4) {
+  animation: up 9s infinite;
+}
+
+/* пятая группа */
+.bubbles-large g:nth-of-type(5) {
+    animation: up 10s infinite;
+}
+.bubbles-large g:nth-of-type(5) circle {
+    animation: wobble 2.75s infinite ease-in-out;
+}
+
+.bubbles-small g:nth-of-type(5) circle {
+    animation: wobble 4s infinite ease-in-out;
+}
+.bubbles-small g:nth-of-type(5) {
+  animation: up 10s infinite;
 }

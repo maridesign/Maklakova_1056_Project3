@@ -9,7 +9,7 @@ let lenght = items.length;
 const arc = 2 * Math.PI * (1 / lenght);
 const radius = 50;
 
-button.addEventListener('mouseover', (e) => {
+button.addEventListener('mouseenter', (e) => {
     e.preventDefault();
 
     active = !active;
@@ -37,3 +37,5 @@ button.addEventListener('mouseover', (e) => {
         }
     }
 })
+
+

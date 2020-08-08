@@ -3,135 +3,170 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <title>Clean as dew</title>
 </head>
 
 <body id="home">
+    <svg viewBox="0 0 50 15" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <g class="bubbles-large" stroke-width="0.1" stroke="white">
+            <g transform="translate(10 3)">
+                <circle cx="35" cy="35" r="0.4" />
+            </g>
 
-    <div>
-        <div class="yellowBg">
-            <div class="container">
-                <div class="row">
-                    <header>
-                        <div class="logoWrap">
-                            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
-                            <a href="index.html"><img class="logoMax" src="images/logo-icon-text.png" alt="logo"></a>
-                        </div>
+            <g transform="translate(15 -5)">
+                <circle cx="50" cy="50" r="0.3" />
+            </g>
 
-                        <img src="images/bottle.png" alt="bottle" class="bottle">
+            <g transform="translate(2 20)">
+                <circle cx="15" cy="10" r="0.45" />
+            </g>
 
-                        <div class="hamburger-menu">
-                            <input id="menu__toggle" type="checkbox" />
-                            <label class="menu__btn" for="menu__toggle">
-                                <span></span>
-                            </label>
-                            <ul class="menu__box">
-                                <li><a class="menu__item" href="index.html">Home</a></li>
-                                <li><a class="menu__item" href="about.html">About</a></li>
-                                <li><a class="menu__item" href="products.html">Products</a></li>
-                                <li><a class="menu__item" href="ads.html">Ads</a></li>
-                                <li><a class="menu__item" href="contacts.html">Contacts</a></li>
-                            </ul>
-                        </div>
-                        <nav>
-                            <a href="index.html" class="menuItem">Home</a>
-                            <a href="about.html" class="menuItem">About</a>
-                            <a href="products.html" class="menuItem">Products</a>
-                            <a href="ads.html" class="menuItem">Ads</a>
-                            <a href="contacts.html" class="menuItem">Contacts</a>
+            <g transform="translate(0 25)">
+                <circle cx="20" cy="10" r="0.35" />
+            </g>
 
-                            <a href="#" class="menuButton">
-                                <span class="navButtonLines"></span>
-                            </a>
-                        </nav>
-                    </header>
+            <g transform="translate(43 29)">
+                <circle cx="13" cy="7" r="0.3" />
+            </g>
+        </g>
+        <g class="bubbles-small" stroke-width="0.05" stroke="white">
+            <g transform="translate(20 20)">
+                <circle cx="15" cy="15" r="0.15" />
+            </g>
 
-                    <!-- <svg viewBox="0 0 95 50" xmlns="http://www.w3.org/2000/svg" fill="none">
-                            <g class="bubbles-large" stroke-width="0.25">
-                                <g transform="translate(10 3)">
-                                    <circle cx="35" cy="35" r="0.75" stroke="red" />
-                                </g>
-        
-                                <g transform="translate(15 -5)">
-                                    <circle cx="50" cy="50" r="0.6" stroke="white" />
-                                </g>
-        
-                                <g transform="translate(2 20)">
-                                    <circle cx="15" cy="10" r="0.8" stroke="blue" />
-                                </g>
-        
-                                <g transform="translate(0 25)">
-                                    <circle cx="20" cy="10" r="0.7" stroke="green" />
-                                </g>
-        
-                                <g transform="translate(43 29)">
-                                    <circle cx="13" cy="7" r="0.65" stroke="orange" />
-                                </g>
-                            </g>
-                            <g class="bubbles-small" stroke-width="0.2">
-                                <g transform="translate(20 20)">
-                                    <circle cx="15" cy="15" r="0.5" stroke="red" />
-                                </g>
-        
-                                <g transform="translate(30 -3)">
-                                    <circle cx="45" cy="45" r="0.3" stroke="white" />
-                                </g>
-        
-                                <g transform="translate(15 25)">
-                                    <circle cx="10" cy="15" r="0.4" stroke="blue" />
-                                </g>
-        
-                                <g transform="translate(25 34)">
-                                    <circle cx="5" cy="5" r="0.25" stroke="green" />
-                                </g>
-        
-                                <g transform="translate(22 34)">
-                                    <circle cx="30" cy="5" r="0.35" stroke="orange" />
-                                </g>
-                            </g>
-        
-                        </svg> -->
+            <g transform="translate(30 -3)">
+                <circle cx="45" cy="45" r="0.2" />
+            </g>
 
+            <g transform="translate(15 25)">
+                <circle cx="10" cy="15" r="0.1" />
+            </g>
+
+            <g transform="translate(25 34)">
+                <circle cx="5" cy="5" r="0.2" />
+            </g>
+
+            <g transform="translate(22 34)">
+                <circle cx="30" cy="5" r="0.15" />
+            </g>
+        </g>
+
+    </svg>
+    <div class="yellowBg">
+        <div class="container">
+            <div class="row">
+                <header>
+                    <div class="logoWrap">
+                        <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+                        <a href="index.html"><img class="logoMax" src="images/logo-icon-text.png" alt="logo"></a>
+                    </div>
+
+                    <img src="images/bottle.png" alt="bottle" class="bottle">
+
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="index.html">Home</a></li>
+                            <li><a class="menu__item" href="about.html">About</a></li>
+                            <li><a class="menu__item" href="products.html">Products</a></li>
+                            <li><a class="menu__item" href="ads.html">Ads</a></li>
+                            <li><a class="menu__item" href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <a href="index.html" class="menuItem">Home</a>
+                        <a href="about.html" class="menuItem">About</a>
+                        <a href="products.html" class="menuItem">Products</a>
+                        <a href="ads.html" class="menuItem">Ads</a>
+                        <a href="contacts.html" class="menuItem">Contacts</a>
+
+                        <a href="#" class="menuButton">
+                            <span class="navButtonLines"></span>
+                        </a>
+                    </nav>
+                </header>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="turquoiseBg">
+        <div class="container">
+            <div class="row">
+                <div class="title textCenter">
+                    <h1>Clean<span class="divider"></span> <span class="titleLeft">as dew</span></h1>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="turquoiseBg">
+    <div class="stringWrap textCenter">
+        <img class="string" src="images/string.png" alt="string">
+        <img src="images/bottle.png" alt="image" class="bottleMax">
+    </div>
+
+    <div class="socialMobileWrap">
+        <div class="yellowBg textCenter">
             <div class="container">
                 <div class="row">
-                    <div class="title textCenter">
-                        <h1>Clean<span class="divider"></span> <span class="titleLeft">as dew</span></h1>
+                    <img src="images/logo-text.png" alt="logo">
+                    <div class="social textCenter">
+                        <a href="#"><img src="images/facebook icon blue.png" alt="ico" class="social__item"></a>
+                        <a href="#"><img src="images/insta icon blue.png" alt="ico" class="social__item"></a>
+                        <a href="#"><img src="images/twitter icon blue.png" alt="ico" class="social__item"></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="stringWrap textCenter">
-            <img class="string" src="images/string.png" alt="string">
-            <img src="images/bottle.png" alt="image" class="bottleMax">
-        </div>
-
-        <div class="socialMobileWrap">
-            <div class="yellowBg textCenter">
-                <div class="container">
-                    <div class="row">
-                        <img src="images/logo-text.png" alt="logo">
-                        <div class="social textCenter">
-                            <a href="#"><img src="images/facebook icon blue.png" alt="ico" class="social__item"></a>
-                            <a href="#"><img src="images/insta icon blue.png" alt="ico" class="social__item"></a>
-                            <a href="#"><img src="images/twitter icon blue.png" alt="ico" class="social__item"></a>
-                        </div>
-                    </div>
+    <div class="turquoiseBg textCenter footerMobile">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <ul class="nav">
+                        <li><a class="menu__item" href="index.html">Home</a></li>
+                        <li><a class="menu__item" href="about.html">About</a></li>
+                        <li><a class="menu__item" href="products.html">Products</a></li>
+                        <li><a class="menu__item" href="ads.html">Ads</a></li>
+                        <li><a class="menu__item" href="contacts.html">Contacts</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </footer>
+    </div>
 
-        <div class="turquoiseBg textCenter footerMobile">
-            <footer>
-                <div class="container">
-                    <div class="row">
+    <div class="footerDesktop">
+        <img src="images/str-footer.png" alt="image" class="string-footer">
+        <div class="container">
+            <div class="row">
+                <footer>
+                    <div class="footer__item">
+                        <div class="social">
+                            <a href="#"><img src="images/facebook icon yellow.png" alt="ico" class="social__item"></a>
+                            <a href="#"><img src="images/Insta icon yellow.png" alt="ico" class="social__item"></a>
+                            <a href="#"><img src="images/Twitter icon yellow.png" alt="ico" class="social__item"></a>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <h3>CONTACT</h3>
+                        <ul>
+                            <li><a href="ladyspeedstick.com">ladyspeedstick.com</a></li>
+                            <li><a href="mailto:ladyspeedstick@info">ladyspeedstick@info</a></li>
+                            <li><a href="tel:+494952828888">49-495-282-8888</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h3>HEAD OFFICE</h3>
+                        <p>Marienplatz Munchen, Marienplatz, 80331, Munchen, Bayern, DEU</p>
+                    </div>
+                    <div class="footer__item">
                         <ul class="nav">
                             <li><a class="menu__item" href="index.html">Home</a></li>
                             <li><a class="menu__item" href="about.html">About</a></li>
@@ -140,56 +175,14 @@
                             <li><a class="menu__item" href="contacts.html">Contacts</a></li>
                         </ul>
                     </div>
-                </div>
-            </footer>
-        </div>
-
-        <div class="footerDesktop">
-            <img src="images/str-footer.png" alt="image" class="string-footer">
-            <div class="container">
-                <div class="row">
-                    <footer>
-                        <div class="footer__item">
-                            <div class="social">
-                                <a href="#"><img src="images/facebook icon yellow.png" alt="ico"
-                                        class="social__item"></a>
-                                <a href="#"><img src="images/Insta icon yellow.png" alt="ico" class="social__item"></a>
-                                <a href="#"><img src="images/Twitter icon yellow.png" alt="ico"
-                                        class="social__item"></a>
-                            </div>
-                        </div>
-                        <div class="footer__item">
-                            <h3>CONTACT</h3>
-                            <ul>
-                                <li><a href="ladyspeedstick.com">ladyspeedstick.com</a></li>
-                                <li><a href="mailto:ladyspeedstick@info">ladyspeedstick@info</a></li>
-                                <li><a href="tel:+494952828888">49-495-282-8888</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__item">
-                            <h3>HEAD OFFICE</h3>
-                            <p>Marienplatz Munchen, Marienplatz, 80331, Munchen, Bayern, DEU</p>
-                        </div>
-                        <div class="footer__item">
-                            <ul class="nav">
-                                <li><a class="menu__item" href="index.html">Home</a></li>
-                                <li><a class="menu__item" href="about.html">About</a></li>
-                                <li><a class="menu__item" href="products.html">Products</a></li>
-                                <li><a class="menu__item" href="ads.html">Ads</a></li>
-                                <li><a class="menu__item" href="contacts.html">Contacts</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__item textCenter">
-                            <img src="images/logo.png" alt="logo">
-                            <p class="copyright textCenter">2020 Lady Speed Stick</p>
-                        </div>
-                    </footer>
-                </div>
+                    <div class="footer__item textCenter">
+                        <img src="images/logo.png" alt="logo">
+                        <p class="copyright textCenter">2020 Lady Speed Stick</p>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
-
-
 
     <script src="js/script.js"></script>
 </body>

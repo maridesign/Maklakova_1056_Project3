@@ -35,12 +35,11 @@ h2 {
     margin: 2em 0; 
 }
 
-h2 + p { 
+p { 
     font-size: 1.125em; 
     line-height: 1.4; 
     margin: 20px 0; 
-    font-weight: bold; 
-}
+    }
 
 a { 
     text-decoration: none; 
@@ -80,6 +79,7 @@ ul {
 
 .textWhite { 
     color: #fff;
+    text-shadow: 0.5px 0.5px  black;
 }
 
 header { 
@@ -639,7 +639,7 @@ svg {
 
     .textWrap { 
         position: relative;
-        top: 21em; /* сдвигаем вниз */
+        top: 21em; /* move down */
         margin-bottom: 20px; 
     }
 

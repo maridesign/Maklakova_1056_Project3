@@ -646,7 +646,8 @@ svg {
     .text__item { 
         width: 45%; 
         margin: 20px 2%; 
-        display: inline-block; 
+        display: inline-block;
+        vertical-align: text-top; 
     }
 
     .cardWrap { 
